@@ -2,6 +2,7 @@ export function createButton() {
   const btn = document.createElement('button');
   btn.textContent = 'Удали меня';
   
+  
   btn.addEventListener('click', () => {
     btn.remove();
   });
